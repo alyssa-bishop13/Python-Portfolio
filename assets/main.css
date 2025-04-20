@@ -73,6 +73,9 @@ body {
   line-height: 1.6;
   margin-left: 12rem;
 }
+body a {
+	color:#f5ddff;
+}
 /*top nav*/
 nav {
   align-items: center;
@@ -147,13 +150,13 @@ nav a:hover {
 	text-align:center;
 }
 .pics{
-	display:flex;
-	justify-content: center;
+    display:flex;
+    justify-content: center;
     flex-wrap: wrap;
     margin-top: 2rem;
 }
 .pics img{
-	width: 33.33%;
+    width: 33.33%;
     box-shadow: 0 0 12px rgba(129, 86, 167, 0.5);
 }
 .pics img:first-child {
@@ -196,10 +199,6 @@ nav a:hover {
 .contact a:hover {
   color: #ffc4b2;
   text-decoration: underline;
-}
-
-.pong img {
-  max-width: 4rem;
 }
 /*python projects page*/
 .intro{
