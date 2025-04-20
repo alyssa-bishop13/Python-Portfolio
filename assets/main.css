@@ -198,7 +198,9 @@ nav a:hover {
   text-decoration: underline;
 }
 
-
+.pong img {
+  max-width: 4rem;
+}
 /*python projects page*/
 .intro{
 	text-align:center;
